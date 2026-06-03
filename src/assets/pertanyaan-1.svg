@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" rx="24" fill="#FFF8E7"/>
+  <!-- Chat bubble -->
+  <path d="M80 180 L80 110 C80 90 90 80 110 80 L290 80 C310 80 320 90 320 110 L320 170 C320 190 310 200 290 200 L140 200 L100 230 L110 200 L110 200" stroke="#D97706" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="white"/>
+  <!-- Three dots -->
+  <circle cx="160" cy="140" r="6" fill="#D97706" opacity="0.4"/>
+  <circle cx="200" cy="140" r="6" fill="#D97706" opacity="0.7"/>
+  <circle cx="240" cy="140" r="6" fill="#D97706"/>
+  <!-- Bouquet inside bubble -->
+  <g transform="translate(195, 130)">
+    <line x1="0" y1="18" x2="0" y2="28" stroke="#1C1917" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="-6" cy="12" r="5" fill="#D97706" opacity="0.6"/>
+    <circle cx="6" cy="10" r="5" fill="#D97706" opacity="0.8"/>
+    <circle cx="0" cy="8" r="5" fill="#D97706"/>
+  </g>
+  <!-- WA icon -->
+  <g transform="translate(310, 100)">
+    <circle cx="12" cy="12" r="14" fill="#22C55E"/>
+    <path d="M7 18 L8 14 C6 11 6 8 8.5 5.5 C11 3 14.5 3 17 5 C19.5 7 19.5 10.5 17 13 C15 15 11 16 9 15 L7 18Z" fill="white" stroke="white" stroke-width="0.5"/>
+  </g>
+  <!-- Label -->
+  <text x="200" y="260" text-anchor="middle" fill="#1C1917" font-family="system-ui, sans-serif" font-size="13" font-weight="600">Pesan via WhatsApp</text>
+</svg>

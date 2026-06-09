@@ -27,7 +27,7 @@ function Root() {
     <div className="min-h-screen flex flex-col bg-white">
       <ScrollToTop />
       <Navbar />
-      <main key={location.pathname} className="page-enter flex-1 pt-20">
+      <main key={location.pathname} className="page-enter flex-1">
         <Outlet />
       </main>
       <Footer />

@@ -74,10 +74,11 @@ export function TentangKami() {
 
             {/* Quote */}
             <div className="md:w-1/2 text-center">
-              <p className="text-lg text-[#44403C] italic leading-relaxed">
-                " Hamasah Gallery adalah usaha kecil di Kota Jambi yang bergerak di bidang buket
-                dan kreasi hadiah, dijalankan oleh tiga orang. Usaha ini berawal dari pembuatan
-                selempang, lalu berkembang karena meningkatnya minat terhadap buket "
+              <p className="text-lg text-[#44403C] leading-relaxed">
+                Berawal dari karya selempang yang dibuat dengan penuh perhatian, Hamasah Gallery
+                tumbuh menjadi pilihan hadiah kreatif untuk berbagai momen istimewa di Kota Jambi.
+                Setiap buket dan kreasi kami dirancang secara personal, dikerjakan dengan rapi,
+                dan dipersiapkan untuk menyampaikan perasaan yang sulit diungkapkan lewat kata-kata.
               </p>
             </div>
           </div>

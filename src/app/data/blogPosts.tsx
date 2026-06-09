@@ -16,28 +16,27 @@ export interface BlogPost {
 export const blogPosts: BlogPost[] = [
   {
     slug: 'ide-buket-wisuda-jambi',
-    title: 'Ide Buket Wisuda yang Unik di Jambi',
+    title: 'Ide Buket Wisuda yang Berkesan untuk Hari Kelulusan',
     excerpt:
-      'Wisuda bukan cuma soal toga dan foto. Buket yang kamu bawa juga bisa jadi kenangan yang diingat lama.',
+      'Buket yang tepat bukan hanya cantik saat difoto, tetapi juga terasa dekat dengan orang yang menerimanya.',
     category: 'Inspirasi',
-    date: '15 April 2025',
+    date: '15 April 2026',
     thumbnail: blog1,
     related: ['buket-snack-vs-buket-bunga', 'kapan-waktu-terbaik-pesan-buket-custom'],
     content: (
       <div className="space-y-5">
         <p>
-          Musim wisuda di Jambi biasanya ramai sekitar bulan Agustus sampai Oktober. Kampus-kampus
-          seperti Unja, IAIN STS, dan beberapa universitas swasta biasanya mengadakan acara wisuda
-          besar-besaran. Dan satu hal yang hampir selalu ada di setiap momen itu: buket.
+          Hari wisuda selalu dipenuhi cerita. Ada rasa lega setelah menyelesaikan masa kuliah, ada
+          keluarga yang datang dari jauh, dan ada sahabat yang ingin ikut merayakan. Di tengah
+          suasana itu, buket menjadi cara sederhana untuk berkata, kamu sudah berjuang dengan baik.
         </p>
         <p>
-          Tapi buket wisuda sekarang sudah jauh berbeda dari yang dulu. Dulu mungkin cukup dengan
-          selusin mawar merah. Sekarang, ada banyak pilihan yang lebih kreatif dan berkesan.
+          Pilihan buket kini jauh lebih beragam. Supaya hadiahmu terasa personal, pilihlah bukan
+          hanya dari tampilannya, tetapi juga dari kebiasaan dan selera penerimanya.
         </p>
 
-        <h2>Jenis Buket yang Populer untuk Wisuda</h2>
-
-        <h3>1. Buket Bunga Segar</h3>
+        <h2>Empat Pilihan yang Layak Dipertimbangkan</h2>
+        <h3>1. Buket bunga segar untuk kesan anggun</h3>
         <ImageWithFallback
           src={blog2}
           alt="Buket bunga segar untuk wisuda di Jambi"
@@ -45,183 +44,140 @@ export const blogPosts: BlogPost[] = [
           style={{ maxHeight: 360 }}
         />
         <p>
-          Buket bunga segar tetap jadi pilihan klasik yang nggak pernah salah. Apalagi kalau kamu
-          pilih bunga yang sesuai warna toga atau tema kampusnya. Di Hamasah Gallery, kamu bisa
-          request warna dan jenis bunga yang kamu mau, termasuk kombinasi mawar, lily, dan bunga
-          musiman lainnya.
+          Bunga segar selalu punya pesona yang sulit digantikan. Padukan warna bunga dengan toga,
+          busana, atau warna favorit wisudawan agar hasil fotonya terlihat serasi. Mawar memberi
+          kesan hangat, sedangkan rangkaian bernuansa putih dan krem terasa lebih tenang dan elegan.
         </p>
 
-        <h3>2. Buket Snack</h3>
+        <h3>2. Buket snack untuk teman yang suka ngemil</h3>
         <p>
-          Ini yang sedang banyak diminati, terutama buat yang mau kasih hadiah lebih "bisa
-          dimakan". Buket snack berisi berbagai camilan favorit yang ditata rapi jadi bentuk buket.
-          Lebih awet dari bunga, dan penerimanya bisa langsung menikmatinya setelah foto-foto
-          selesai.
+          Buket snack terasa akrab, menyenangkan, dan bisa langsung dinikmati setelah acara.
+          Isinya dapat disesuaikan dengan camilan favorit penerima. Pilihan ini cocok untuk sahabat,
+          adik, atau siapa pun yang lebih menyukai hadiah praktis.
         </p>
 
-        <h3>3. Buket Uang</h3>
+        <h3>3. Buket uang yang cantik sekaligus berguna</h3>
         <p>
-          Kalau kamu nggak yakin mau kasih apa, buket uang adalah solusi yang praktis. Uang
-          dirangkai jadi bentuk buket yang cantik, dan penerimanya bebas pakai untuk kebutuhan
-          apapun. Cocok buat wisudawan yang baru mau mulai kerja atau melanjutkan studi.
+          Memasuki masa setelah kuliah, ada banyak kebutuhan baru yang harus disiapkan. Buket uang
+          memberi penerima kebebasan untuk menggunakannya sesuai kebutuhan, tanpa mengurangi kesan
+          istimewa saat hadiah diberikan.
         </p>
 
-        <h3>4. Buket Lampu LED</h3>
+        <h3>4. Buket lampu untuk kejutan yang berbeda</h3>
         <ImageWithFallback
           src={blog3}
-          alt="Buket lampu LED cantik untuk wisuda"
+          alt="Buket lampu untuk hadiah wisuda"
           className="w-full rounded-xl object-cover"
           style={{ maxHeight: 360 }}
         />
         <p>
-          Buket lampu LED sekarang sedang naik daun. Kalau difoto di malam hari atau di tempat
-          yang agak redup, hasilnya memang estetik banget. Cahaya kecil dari lampu-lampu itu bikin
-          buket kelihatan hidup dan romantis.
+          Buket dengan lampu kecil tampil menonjol saat acara sore atau malam hari. Cahayanya
+          memberi sentuhan manis pada foto dan membuat rangkaian terasa lebih meriah.
         </p>
 
-        <h2>Tips Memilih Buket untuk Wisuda di Jambi</h2>
+        <h2>Agar Tidak Salah Pilih</h2>
         <ul className="list-disc pl-6 space-y-2">
-          <li>
-            <strong>Sesuaikan dengan kepribadian si penerima.</strong> Kalau dia orangnya suka
-            sesuatu yang unik dan kekinian, coba buket snack atau lampu LED. Kalau dia lebih suka
-            yang elegan, buket bunga tetap pilihan terbaik.
-          </li>
-          <li>
-            <strong>Pertimbangkan cuaca Jambi.</strong> Jambi panas. Buket bunga segar bisa cepat
-            layu kalau kamu bawa dari pagi sampai sore. Kalau khawatir, pilih buket yang lebih
-            awet seperti buket snack atau buket artifisial.
-          </li>
-          <li>
-            <strong>Pesan jauh-jauh hari.</strong> Musim wisuda itu ramai banget. Pesan setidaknya
-            3–5 hari sebelumnya biar kamu nggak kehabisan slot atau harus terburu-buru.
-          </li>
-          <li>
-            <strong>Budget nggak harus besar.</strong> Di Hamasah Gallery, buket mulai dari harga
-            yang terjangkau. Yang penting adalah niatnya, bukan harganya.
-          </li>
+          <li><strong>Kenali penerimanya.</strong> Hadiah sederhana yang sesuai selera akan terasa lebih tulus.</li>
+          <li><strong>Perhatikan cuaca.</strong> Jika buket akan dibawa seharian, pilih bahan yang tidak mudah layu.</li>
+          <li><strong>Pesan lebih awal.</strong> Beri waktu tiga sampai lima hari, terutama saat musim wisuda.</li>
+          <li><strong>Tentukan anggaran.</strong> Buket berkesan tidak harus mahal, tetapi harus dipilih dengan perhatian.</li>
         </ul>
 
-        <h2>Kesimpulan</h2>
+        <h2>Hadiah Kecil untuk Pencapaian Besar</h2>
         <p>
-          Wisuda adalah momen yang hanya datang sekali (atau mungkin dua kali kalau lanjut S2).
-          Buket yang kamu pilih bisa jadi bagian dari kenangan indah di hari itu. Apapun pilihanmu,
-          pastikan kamu pilih sesuai selera dan kebutuhan.
-        </p>
-        <p>
-          Kalau bingung mau mulai dari mana, langsung saja hubungi kami. Kami senang bantu kamu
-          nemuin buket yang paling pas.
+          Buket mungkin hanya dipegang beberapa jam, tetapi perasaan saat menerimanya bisa tinggal
+          jauh lebih lama. Pilih rangkaian yang paling mampu mewakili ucapan selamatmu. Jika masih
+          ragu, ceritakan tentang penerimanya kepada kami dan Hamasah Gallery akan membantu
+          menemukan pilihan yang pas.
         </p>
       </div>
     ),
   },
   {
     slug: 'buket-snack-vs-buket-bunga',
-    title: 'Buket Snack vs Buket Bunga: Mana yang Lebih Cocok?',
+    title: 'Buket Snack atau Buket Bunga, Mana yang Paling Tepat?',
     excerpt:
-      'Dua pilihan populer untuk hadiah, tapi masing-masing punya keunggulan sendiri. Tergantung situasinya.',
+      'Keduanya sama menarik. Kuncinya ada pada suasana acara dan hal kecil yang disukai penerima.',
     category: 'Tips',
-    date: '22 April 2025',
+    date: '22 April 2026',
     thumbnail: blog2,
     related: ['ide-buket-wisuda-jambi', 'kapan-waktu-terbaik-pesan-buket-custom'],
     content: (
       <div className="space-y-5">
         <p>
-          Sekarang ini, kalau mau beli buket untuk hadiah, pilihannya udah banyak banget. Tapi
-          dua yang paling sering ditanyakan ke kami adalah: buket snack atau buket bunga? Mana yang
-          lebih bagus?
+          Saat memilih hadiah, pertanyaan yang sering muncul adalah buket snack atau buket bunga.
+          Tidak ada pilihan yang mutlak lebih baik. Buket terbaik adalah yang terasa tepat ketika
+          diberikan kepada orang yang tepat.
         </p>
-        <p>Jawabannya: tergantung. Tapi supaya lebih jelas, mari kita bahas satu per satu.</p>
-
         <ImageWithFallback
           src={blog2}
-          alt="Buket snack untuk hadiah ulang tahun"
+          alt="Buket snack untuk hadiah"
           className="w-full rounded-xl object-cover"
           style={{ maxHeight: 360 }}
         />
 
-        <h2>Buket Bunga</h2>
-        <h3>Kelebihan</h3>
-        <ul className="list-disc pl-6 space-y-2">
-          <li>Tampilan klasik dan elegan</li>
-          <li>Cocok untuk semua acara formal dan non-formal</li>
-          <li>Hasil foto biasanya lebih cantik dan natural</li>
-          <li>Bisa disesuaikan warna dan jenis bunga</li>
-        </ul>
+        <h2>Pilih Buket Bunga untuk Kesan yang Lebih Dalam</h2>
+        <p>
+          Buket bunga cocok ketika kamu ingin menyampaikan rasa bangga, terima kasih, atau kasih
+          sayang dengan cara yang anggun. Rangkaian ini pas untuk wisuda, hari jadi, pernikahan,
+          maupun hadiah bagi guru dan orang tua.
+        </p>
+        <p>
+          Bunga segar memang perlu dirawat dan tidak bertahan selamanya. Namun, aroma dan
+          keindahannya saat diberikan sering menjadi bagian paling berkesan dari sebuah perayaan.
+        </p>
 
-        <h3>Kekurangan</h3>
-        <ul className="list-disc pl-6 space-y-2">
-          <li>Bunga segar tidak bertahan lama, terutama di cuaca Jambi yang panas</li>
-          <li>Perlu dirawat agar tidak cepat layu</li>
-          <li>Setelah beberapa hari biasanya sudah tidak bisa digunakan</li>
-        </ul>
-
-        <h2>Buket Snack</h2>
-        <h3>Kelebihan</h3>
-        <ul className="list-disc pl-6 space-y-2">
-          <li>Awet lebih lama, bisa dinikmati berhari-hari</li>
-          <li>Lebih praktis, tidak perlu dirawat</li>
-          <li>Bisa disesuaikan dengan snack favorit penerima</li>
-          <li>Cocok untuk ulang tahun, wisuda, perpisahan</li>
-          <li>Sering jadi bahan konten yang menarik</li>
-        </ul>
-
-        <h3>Kekurangan</h3>
-        <ul className="list-disc pl-6 space-y-2">
-          <li>Terkesan kurang formal untuk acara-acara resmi</li>
-          <li>Pilihan snack bisa terbatas tergantung stok</li>
-        </ul>
+        <h2>Pilih Buket Snack untuk Suasana yang Akrab</h2>
+        <p>
+          Buket snack membawa suasana yang santai dan ceria. Isinya dapat dipilih berdasarkan
+          camilan favorit penerima, sehingga hadiah terasa lebih dekat dan tidak asal pilih.
+          Rangkaian ini juga mudah dibawa dan dapat dinikmati bersama setelah acara.
+        </p>
+        <p>
+          Pilihan ini sangat cocok untuk ulang tahun teman, kelulusan, atau perpisahan kerja.
+          Untuk acara yang sangat resmi, pertimbangkan desain dengan warna dan susunan yang lebih
+          tenang agar tetap terlihat pantas.
+        </p>
 
         <ImageWithFallback
           src={blog1}
-          alt="Buket bunga cantik dengan pita"
+          alt="Buket bunga dengan pita"
           className="w-full rounded-xl object-cover"
           style={{ maxHeight: 360 }}
         />
 
-        <h2>Kapan Pilih Buket Bunga?</h2>
+        <h2>Masih Sulit Memilih?</h2>
         <p>
-          Pilih buket bunga kalau kamu mau kasih kesan yang lebih romantis atau formal. Misalnya
-          untuk pasangan, untuk atasan di kantor, atau untuk acara yang memang membutuhkan kesan
-          elegansi seperti pernikahan atau peringatan hari jadi.
+          Coba ingat hal yang paling disukai penerima. Jika ia senang menyimpan bunga atau menyukai
+          tampilan yang anggun, pilih buket bunga. Jika ia suka ngemil dan menikmati hadiah yang
+          praktis, buket snack akan membuatnya tersenyum.
         </p>
-
-        <h2>Kapan Pilih Buket Snack?</h2>
         <p>
-          Buket snack lebih cocok untuk situasi yang santai dan menyenangkan. Ulang tahun teman,
-          wisuda adik kelas, atau perpisahan kerja. Penerimanya pasti senyum pas lihat isinya,
-          apalagi kalau kamu tahu camilan favoritnya.
-        </p>
-
-        <h2>Bisa Dikombinasi?</h2>
-        <p>
-          Tentu bisa. Di Hamasah Gallery, kami juga bisa buat buket kombinasi — bunga plus snack
-          dalam satu rangkaian. Hasilnya unik dan nggak biasa. Kalau mau coba, hubungi kami
-          langsung dan ceritakan konsep yang kamu mau.
+          Keduanya juga bisa dipadukan dalam satu rangkaian. Beberapa tangkai bunga dapat memberi
+          kesan cantik, sementara snack favorit membuat hadiah terasa lebih personal. Sampaikan
+          acara, warna pilihan, dan anggaranmu kepada Hamasah Gallery agar rangkaiannya tetap
+          seimbang.
         </p>
       </div>
     ),
   },
   {
     slug: 'tips-buket-perpisahan-sekolah',
-    title: 'Tips Memilih Buket untuk Acara Perpisahan Sekolah',
+    title: 'Memilih Buket untuk Perpisahan Sekolah yang Penuh Makna',
     excerpt:
-      'Acara perpisahan sekolah hanya datang sekali. Pilih buket yang benar-benar berkesan untuk guru atau teman.',
+      'Untuk guru atau sahabat, buket yang dipilih dengan perhatian akan selalu terasa lebih berharga.',
     category: 'Tips',
-    date: '30 April 2025',
+    date: '30 April 2026',
     thumbnail: blog4,
     related: ['ide-buket-wisuda-jambi', 'kapan-waktu-terbaik-pesan-buket-custom'],
     content: (
       <div className="space-y-5">
         <p>
-          Acara perpisahan sekolah — baik itu SMP maupun SMA — selalu punya nuansa tersendiri.
-          Ada yang sedih karena mau pisah dari teman-teman, ada yang senang karena akhirnya lulus.
-          Tapi satu hal yang hampir selalu ada di setiap perpisahan: buket untuk guru atau teman.
+          Perpisahan sekolah mempertemukan banyak perasaan dalam satu hari. Ada bahagia karena
+          berhasil menyelesaikan satu tahap, tetapi ada juga haru karena rutinitas bersama segera
+          berubah. Buket dapat menjadi ucapan terima kasih yang sederhana untuk orang yang sudah
+          menemani perjalanan itu.
         </p>
-        <p>
-          Masalahnya, kadang bingung mau pilih buket yang seperti apa. Budget pas-pasan, tapi tetap
-          mau kasih yang bagus. Atau beli bareng-bareng tapi nggak tahu mau yang mana.
-        </p>
-
         <ImageWithFallback
           src={blog4}
           alt="Suasana acara perpisahan sekolah"
@@ -229,160 +185,98 @@ export const blogPosts: BlogPost[] = [
           style={{ maxHeight: 360 }}
         />
 
-        <h2>Buket untuk Guru</h2>
+        <h2>Untuk Guru yang Telah Membimbing</h2>
         <p>
-          Guru biasanya lebih suka buket yang simpel tapi bermakna. Buket bunga segar dengan warna
-          yang kalem — putih, krem, atau soft pink — biasanya paling tepat. Kamu juga bisa tambahkan
-          ucapan tertulis di kartu kecil yang disertakan.
-        </p>
-        <p>
-          Kalau mau yang lebih unik, buket bunga kering atau buket artificial bisa jadi pilihan.
-          Lebih awet dan bisa jadi pajangan di meja guru. Banyak guru yang justru lebih senang
-          karena bisa dipajang lama.
+          Pilih rangkaian yang rapi dengan warna lembut seperti putih, krem, atau merah muda.
+          Bunga segar memberi kesan hangat, sedangkan bunga kering atau artifisial dapat disimpan
+          lebih lama sebagai pajangan. Tambahkan kartu berisi ucapan pribadi dari murid. Beberapa
+          kalimat yang jujur sering kali lebih berarti daripada rangkaian yang besar.
         </p>
 
-        <h2>Buket untuk Teman</h2>
+        <h2>Untuk Sahabat yang Akan Melangkah ke Arah Baru</h2>
         <p>
-          Buat teman, suasananya lebih santai. Buket snack, buket uang, atau buket yang isinya
-          sesuai hobi atau kesukaan si penerima akan lebih berkesan dibanding buket biasa.
+          Hadiah untuk teman boleh terasa lebih ceria. Pilih buket snack favoritnya, buket uang,
+          atau rangkaian dengan warna yang menggambarkan kepribadiannya. Tambahan foto kecil atau
+          catatan tentang kenangan bersama juga bisa membuat hadiah terasa sangat personal.
         </p>
-        <p>
-          Kalau mau patungan bareng sekelompok teman, buket yang lebih besar dan bervariasi bisa
-          jadi pilihan bagus. Budget dibagi, hasilnya tetap meriah.
-        </p>
-
-        <h3>Contoh isi buket untuk teman:</h3>
-        <ul className="list-disc pl-6 space-y-2">
-          <li>Buket snack campur (chiki, coklat, permen)</li>
-          <li>Buket dengan accessories tambahan seperti boneka kecil</li>
-          <li>Buket uang dengan lipatan origami</li>
-          <li>Buket bunga dengan warna cerah</li>
-        </ul>
-
         <ImageWithFallback
           src={blog3}
-          alt="Buket bunga warna-warni untuk perpisahan"
+          alt="Buket warna-warni untuk perpisahan"
           className="w-full rounded-xl object-cover"
           style={{ maxHeight: 360 }}
         />
 
-        <h2>Tips Budget Perpisahan</h2>
-        <p>
-          Perpisahan sekolah biasanya melibatkan banyak orang, dan kadang budget-nya memang
-          terbatas. Beberapa tips dari kami:
-        </p>
+        <h2>Mengatur Anggaran Bersama Teman Sekelas</h2>
         <ul className="list-disc pl-6 space-y-2">
-          <li>
-            <strong>Pesan ramai-ramai.</strong> Kalau satu kelas mau beli buket untuk wali kelas
-            atau guru favorit, pesan bareng bisa lebih hemat. Kami bisa bantu koordinasi.
-          </li>
-          <li>
-            <strong>Tentukan budget dulu.</strong> Beritahu kami budget yang kamu punya, kami akan
-            rekomendasikan buket yang paling sesuai tanpa harus over budget.
-          </li>
-          <li>
-            <strong>Pesan lebih awal.</strong> Jangan mendadak. Terutama kalau acara perpisahan
-            jadwalnya sudah diketahui jauh-jauh hari. Pesan minimal 3 hari sebelumnya.
-          </li>
+          <li><strong>Sepakati anggaran sejak awal.</strong> Dengan batas yang jelas, pilihan buket akan lebih mudah ditentukan.</li>
+          <li><strong>Utamakan satu detail personal.</strong> Kartu ucapan atau warna favorit penerima memberi makna tanpa menambah banyak biaya.</li>
+          <li><strong>Pesan setidaknya tiga hari sebelumnya.</strong> Waktu yang cukup membuat hasil rangkaian lebih rapi dan pilihan bahan lebih luas.</li>
         </ul>
 
-        <h2>Penutup</h2>
+        <h2>Yang Diingat Adalah Perhatiannya</h2>
         <p>
-          Perpisahan itu momen yang nggak akan datang dua kali. Buket yang kamu bawa bisa jadi
-          bagian dari kenangan itu — baik buat kamu sendiri maupun untuk orang yang menerimanya.
-          Pilih yang tulus, bukan yang paling mahal.
-        </p>
-        <p>
-          Kalau ada yang mau ditanyakan soal pilihan buket untuk perpisahan sekolah, langsung
-          hubungi kami. Kami siap bantu dari konsultasi sampai pengiriman.
+          Buket perpisahan tidak perlu menjadi yang paling besar di ruangan. Selama dipilih dengan
+          tulus dan disertai ucapan yang jujur, hadiah itu akan punya tempat dalam kenangan
+          penerimanya. Hamasah Gallery siap membantu menyesuaikan rangkaian dengan penerima, acara,
+          dan anggaran yang sudah disepakati.
         </p>
       </div>
     ),
   },
   {
     slug: 'kapan-waktu-terbaik-pesan-buket-custom',
-    title: 'Kapan Waktu Terbaik Pesan Buket Custom Supaya Hasilnya Maksimal?',
+    title: 'Kapan Sebaiknya Memesan Buket Custom?',
     excerpt:
-      'Buket custom yang bagus biasanya bukan soal mahal, tapi soal timing. Pesan di waktu yang tepat bikin hasil lebih rapi, pilihan lebih leluasa, dan prosesnya jauh lebih tenang.',
+      'Waktu yang cukup memberi ruang untuk memilih bahan, menyempurnakan detail, dan mendapatkan hasil terbaik.',
     category: 'Panduan',
-    date: '7 Mei 2025',
+    date: '7 Mei 2026',
     thumbnail: blog5,
     related: ['ide-buket-wisuda-jambi', 'buket-snack-vs-buket-bunga'],
     content: (
       <div className="space-y-5">
         <p>
-          Banyak orang baru mencari buket ketika acaranya sudah dekat. Padahal untuk buket custom,
-          waktu pesan sangat berpengaruh ke hasil akhir. Semakin mepet, semakin sedikit ruang untuk
-          memilih bahan, menyesuaikan detail, dan memastikan rangkaiannya benar-benar sesuai
-          keinginan.
+          Buket custom dibuat untuk membawa cerita tertentu. Bisa berupa warna kesukaan sahabat,
+          camilan favorit pasangan, atau rangkaian yang senada dengan acara. Karena setiap
+          detailnya dipilih khusus, proses pembuatannya membutuhkan waktu yang cukup.
         </p>
         <p>
-          Di Hamasah Gallery, kami sering menemukan dua tipe pelanggan. Yang pertama datang lebih
-          awal dengan gambaran yang cukup jelas. Yang kedua datang mendadak karena acara tinggal
-          hitungan jam. Keduanya tetap bisa dibantu, tetapi pengalaman dan hasilnya tentu berbeda.
+          Memesan lebih awal bukan berarti harus berbulan-bulan sebelumnya. Kamu hanya perlu
+          memberi perangkai ruang untuk mencari bahan, berdiskusi, dan menyelesaikan rangkaian
+          dengan teliti.
         </p>
-
         <ImageWithFallback
           src={blog5}
-          alt="Buket custom elegan untuk hadiah spesial"
+          alt="Buket custom untuk hadiah spesial"
           className="w-full rounded-xl object-cover"
           style={{ maxHeight: 360 }}
         />
 
-        <h2>Kenapa Pesan Lebih Awal Itu Penting?</h2>
-        <p>
-          Saat kamu pesan lebih awal, pilihan bahan biasanya masih lengkap. Warna wrapping, jenis
-          bunga, pita, kartu ucapan, sampai tambahan aksesoris masih bisa dipilih dengan lebih
-          leluasa. Ini penting terutama kalau kamu punya tema khusus atau ingin menyesuaikan warna
-          dengan acara.
-        </p>
-        <p>
-          Selain itu, proses diskusinya juga lebih santai. Kamu punya waktu untuk revisi konsep,
-          menyesuaikan ukuran, atau mengganti isi buket jika dirasa belum pas. Hasil akhirnya
-          biasanya lebih matang karena dibuat tanpa tekanan waktu yang berlebihan.
-        </p>
-
-        <h2>Waktu Ideal untuk Jenis Acara yang Berbeda</h2>
+        <h2>Waktu yang Ideal untuk Setiap Acara</h2>
         <ul className="list-disc pl-6 space-y-2">
-          <li>
-            <strong>Wisuda atau perpisahan sekolah:</strong> idealnya pesan 3 sampai 5 hari lebih
-            awal, apalagi saat musim acara ramai.
-          </li>
-          <li>
-            <strong>Hadiah ulang tahun atau kejutan pribadi:</strong> 2 sampai 3 hari biasanya
-            cukup jika konsepnya tidak terlalu rumit.
-          </li>
-          <li>
-            <strong>Parcel atau pesanan dalam jumlah banyak:</strong> sebaiknya lebih awal lagi
-            supaya stok dan detail tiap item bisa disiapkan dengan rapi.
-          </li>
-          <li>
-            <strong>Pesanan mendadak:</strong> tetap bisa dicoba, tetapi konsep mungkin perlu
-            disesuaikan dengan bahan yang tersedia hari itu.
-          </li>
+          <li><strong>Wisuda dan perpisahan sekolah:</strong> pesan tiga sampai lima hari sebelumnya karena permintaan biasanya meningkat pada waktu yang sama.</li>
+          <li><strong>Ulang tahun dan kejutan pribadi:</strong> dua sampai tiga hari cukup untuk desain sederhana dengan bahan yang tersedia.</li>
+          <li><strong>Parcel dan pesanan dalam jumlah banyak:</strong> hubungi kami lebih awal agar isi, kemasan, dan jadwal pengiriman dapat disiapkan dengan rapi.</li>
+          <li><strong>Pesanan pada hari yang sama:</strong> tetap dapat ditanyakan, tetapi desain perlu menyesuaikan stok yang tersedia.</li>
         </ul>
 
-        <h2>Tanda-Tanda Kamu Sebaiknya Jangan Menunggu Terlalu Lama</h2>
+        <h2>Kapan Harus Memesan Lebih Awal?</h2>
         <p>
-          Kalau kamu ingin desain yang sangat spesifik, warna tertentu, atau isi buket yang tidak
-          biasa, sebaiknya jangan pesan di last minute. Semakin custom permintaanmu, semakin besar
-          kebutuhan waktu produksi dan koordinasinya.
+          Jangan menunggu terlalu dekat dengan hari acara jika kamu menginginkan warna tertentu,
+          isi yang tidak umum, atau jumlah pesanan yang banyak. Hal yang sama berlaku pada musim
+          wisuda, akhir tahun, dan masa perpisahan sekolah ketika jadwal produksi lebih cepat penuh.
         </p>
         <p>
-          Hal yang sama berlaku kalau acaranya jatuh di musim ramai seperti wisuda, akhir tahun,
-          atau menjelang momen perpisahan sekolah. Slot produksi biasanya cepat penuh, jadi lebih
-          aman mengunci pesanan dari awal.
+          Dengan waktu yang cukup, diskusi juga terasa lebih nyaman. Kamu dapat menyesuaikan
+          ukuran, mengganti isi, dan memastikan kartu ucapan ditulis dengan benar sebelum buket
+          diserahkan.
         </p>
 
-        <h2>Kesimpulan</h2>
+        <h2>Mulai dari Tanggal Acara</h2>
         <p>
-          Waktu terbaik untuk pesan buket custom adalah sebelum kamu merasa terburu-buru. Bukan
-          harus jauh-jauh hari, tetapi cukup awal untuk memberi ruang pada detail. Itu yang paling
-          sering membedakan buket yang sekadar jadi, dengan buket yang benar-benar terasa spesial.
-        </p>
-        <p>
-          Kalau kamu sudah punya tanggal acara, langsung konsultasikan saja. Dari sana kami bisa
-          bantu menyarankan waktu pesan yang paling aman sesuai jenis buket dan kebutuhanmu.
+          Jika tanggal acara sudah ditentukan, saat itulah waktu terbaik untuk mulai berkonsultasi.
+          Ceritakan siapa penerimanya, suasana yang ingin dibawa, dan anggaran yang tersedia.
+          Hamasah Gallery akan membantu menyusun pilihan yang masuk akal serta memberi rekomendasi
+          waktu pemesanan yang paling aman.
         </p>
       </div>
     ),
@@ -390,9 +284,9 @@ export const blogPosts: BlogPost[] = [
 ];
 
 export function getBlogPost(slug: string): BlogPost | undefined {
-  return blogPosts.find((p) => p.slug === slug);
+  return blogPosts.find((post) => post.slug === slug);
 }
 
 export function getRelatedPosts(slugs: string[]): BlogPost[] {
-  return blogPosts.filter((p) => slugs.includes(p.slug));
+  return blogPosts.filter((post) => slugs.includes(post.slug));
 }

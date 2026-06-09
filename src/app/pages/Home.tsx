@@ -160,12 +160,12 @@ export function Home() {
               <MessageCircle size={16} strokeWidth={1.5} />
               Chat WhatsApp Sekarang →
             </a>
-            <a
-              href="/kontak"
+            <Link
+              to="/kontak"
               className="text-sm text-[#78716C] underline underline-offset-2 hover:text-[#44403C] transition-colors"
             >
               Lihat Jam Operasional
-            </a>
+            </Link>
           </div>
 
           {/* Info pills */}

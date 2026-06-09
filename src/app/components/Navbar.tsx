@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router';
-import { Menu, X, MessageCircle } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 
 const navLinks = [
   { href: '/', label: 'Beranda' },
@@ -12,8 +12,6 @@ const navLinks = [
   { href: '/blog', label: 'Blog' },
 ];
 
-const whatsappLink = 'https://wa.me/6281234567890';
-
 export function Navbar() {
   const location = useLocation();
   const [menuOpen, setMenuOpen] = useState(false);
@@ -24,7 +22,7 @@ export function Navbar() {
   };
 
   return (
-    <nav className="bg-white border-b border-[#E7E5E4]">
+    <nav className="sticky top-0 z-50 bg-white border-b border-[#E7E5E4]">
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
         <Link
           to="/"
@@ -50,16 +48,6 @@ export function Navbar() {
             </Link>
           ))}
 
-          {/* WA CTA button */}
-          <a
-            href={whatsappLink}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 bg-[#22C55E] hover:bg-[#16A34A] hover:scale-105 text-white text-sm px-4 py-2 rounded-full transition-all"
-          >
-            <MessageCircle size={16} strokeWidth={1.5} />
-            Pesan via WA
-          </a>
         </div>
 
         {/* Mobile hamburger */}
@@ -89,15 +77,6 @@ export function Navbar() {
               {link.label}
             </Link>
           ))}
-          <a
-            href={whatsappLink}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 bg-[#22C55E] hover:bg-[#16A34A] text-white text-sm px-4 py-2 rounded-full w-fit transition-colors"
-          >
-            <MessageCircle size={16} strokeWidth={1.5} />
-            Pesan via WA
-          </a>
         </div>
       )}
     </nav>

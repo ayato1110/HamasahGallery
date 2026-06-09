@@ -1,4 +1,4 @@
-import { createBrowserRouter, Outlet, useLocation } from 'react-router';
+import { createHashRouter, Outlet, useLocation } from 'react-router';
 import { useEffect } from 'react';
 import { Navbar } from './components/Navbar';
 import { Footer } from './components/Footer';
@@ -13,9 +13,9 @@ import { Blog } from './pages/Blog';
 import { BlogDetail } from './pages/BlogDetail';
 
 function Root() {
-  function ScrollToTop() {
-    const location = useLocation();
+  const location = useLocation();
 
+  function ScrollToTop() {
     useEffect(() => {
       window.scrollTo(0, 0);
     }, [location.pathname]);
@@ -27,7 +27,7 @@ function Root() {
     <div className="min-h-screen flex flex-col bg-white">
       <ScrollToTop />
       <Navbar />
-      <main className="flex-1">
+      <main key={location.pathname} className="page-enter flex-1 pt-20">
         <Outlet />
       </main>
       <Footer />
@@ -35,7 +35,7 @@ function Root() {
   );
 }
 
-export const router = createBrowserRouter([
+export const router = createHashRouter([
   {
     path: '/',
     Component: Root,

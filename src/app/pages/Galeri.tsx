@@ -7,16 +7,18 @@ import {
   galeri5,
   galeri6,
   galeri7,
+  galeri8,
 } from '../../assets/images';
 
 const galleryItems = [
-  { id: 1, src: galeri1, alt: 'Galeri produk Hamasah Gallery 1', className: 'row-span-1' },
-  { id: 2, src: galeri2, alt: 'Galeri produk Hamasah Gallery 2', className: 'row-span-2' },
-  { id: 3, src: galeri3, alt: 'Galeri produk Hamasah Gallery 3', className: 'row-span-1' },
-  { id: 4, src: galeri4, alt: 'Galeri produk Hamasah Gallery 4', className: 'row-span-1' },
-  { id: 5, src: galeri5, alt: 'Galeri produk Hamasah Gallery 5', className: 'row-span-1' },
-  { id: 6, src: galeri6, alt: 'Galeri produk Hamasah Gallery 6', className: 'col-span-2 row-span-1' },
-  { id: 7, src: galeri7, alt: 'Galeri produk Hamasah Gallery 7', className: 'row-span-1' },
+  { id: 1, src: galeri1, alt: 'Buket bunga putih dan hitam Hamasah Gallery', className: 'row-span-1' },
+  { id: 2, src: galeri2, alt: 'Buket bunga mawar merah dan hitam Hamasah Gallery', className: 'row-span-2' },
+  { id: 3, src: galeri3, alt: 'Buket bunga mawar merah dan putih Hamasah Gallery', className: 'row-span-1' },
+  { id: 4, src: galeri4, alt: 'Buket bunga mawar putih ukuran besar Hamasah Gallery', className: 'row-span-1' },
+  { id: 5, src: galeri5, alt: 'Koleksi medali dan selempang custom Hamasah Gallery', className: 'row-span-2' },
+  { id: 6, src: galeri6, alt: 'Medali kejuaraan voli dan futsal custom', className: 'col-span-2 row-span-1' },
+  { id: 7, src: galeri7, alt: 'Medali finisher fun run custom', className: 'row-span-1' },
+  { id: 8, src: galeri8, alt: 'Buket uang custom Hamasah Gallery', className: 'row-span-1' },
 ];
 
 export function Galeri() {
